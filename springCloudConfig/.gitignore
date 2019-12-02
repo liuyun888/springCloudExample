@@ -1,0 +1,8 @@
+# ignore file
+.gradle
+.idea
+*.iml
+/c:/
+/out/
+**/contiperf-report/
+**/build/

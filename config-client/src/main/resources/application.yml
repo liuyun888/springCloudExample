@@ -1,0 +1,12 @@
+server:
+  port: 1601
+spring:
+  application:
+    name: space
+  cloud:
+    config:
+      uri: http://localhost:1501
+      fail-fast: true
+      label: master
+  profiles:
+    active: dev

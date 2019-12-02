@@ -1,0 +1,19 @@
+
+server:
+  port: 1501
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liuyun888/springCloudConfig
+          search-paths: config-repo
+          username: 632233796@qq.com
+          password: liuhui666
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/

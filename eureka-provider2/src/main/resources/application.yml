@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: eureka-provider  #注册到服务中心的名字
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/
+  instance:
+    prefer-ip-address: true  #将自己的IP注册到Eureka Server;否则则是注册 操作系统的hostname
+server:
+  port: 1102
